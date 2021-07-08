@@ -1,0 +1,30 @@
+.sticky{
+    background-color: #191d28;
+    position: fixed;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 47px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.sticky h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #58becc;
+     font-weight: 400;
+     font-size: 1.2rem;
+     color: #58becc;
+     height: 2rem;
+    width: 20vw;
+    border-radius: 5px;
+}
+
+.sticky h3:hover {
+    background-color: #58becc;
+    color: white;
+}
